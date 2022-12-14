@@ -7,7 +7,9 @@ const App = () =>
   return (
     <div className="mainContainer">
 
-      <header className="mainTitle">Pokedex GO</header>
+      <header className="mainTitle">
+        <img src={require("./PkmGo-Logo.png")} alt="mainLogo" />
+      </header>
 
       <main>
         <Grid/>
