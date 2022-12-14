@@ -1,25 +1,7 @@
 import "./Card.css"
-//export function Card({pelicula})
-//{
 
-    //const imgUrl = "https://image.tmdb.org/t/p/w300" + pelicula.poster_path
-
-    //return(
-
-        //<li className="Card">
-        //<img className="Image" src={imgUrl} alt={pelicula.title} />
-        //<div>{pelicula.title}</div>
-        //<div>{pelicula.popularity}</div>
-        //</li>
-
-    //)
-
-//}
 export function Card({pokemon})
 {
-
-    //const imgUrl = "https://image.tmdb.org/t/p/w300" + pelicula.poster_path
-
     return(
 
         <div className="Card">
@@ -36,5 +18,4 @@ export function Card({pokemon})
         </div>
 
     )
-
 }
