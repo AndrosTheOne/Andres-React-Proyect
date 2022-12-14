@@ -7,8 +7,16 @@ const App = () =>
   return (
     <div className="mainContainer">
 
-      <header className="mainTitle">
-        <img src={require("./PkmGo-Logo.png")} alt="mainLogo" />
+      <header>
+
+        <div className="mainTitle">
+          <img src={require("./PkmGo-Logo.png")} alt="mainLogo" />
+        </div>
+
+        <div className="regionTitle">
+          Kanto #001 - #151
+        </div>
+        
       </header>
 
       <main>
